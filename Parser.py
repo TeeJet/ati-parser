@@ -17,7 +17,7 @@ class Parser:
         self.repository = repository
 
     def parse(self):
-        # self.get_firm_short_info()
+        self.get_firm_short_info()
         self.get_firms_info()
 
     def get_firm_short_info(self):
